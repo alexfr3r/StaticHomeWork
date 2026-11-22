@@ -1,0 +1,21 @@
+package StaticHomeWork;
+
+public class MathConstants {
+    // поля
+    static final double PI = 3.14159;
+    static final double E = 2.71828;
+
+    public static double calculateCircleArea(double r) {
+        return PI * r * r;
+    }
+
+    public static double calculateCircumference(double r) {
+        return 2 * PI * r;
+    }
+
+    public static double calculateExponentialGrowth(double ininitialValue, double rate, double time) {
+        return ininitialValue * Math.pow(E, rate * time);
+    }
+
+
+}
